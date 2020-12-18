@@ -35,7 +35,7 @@ public class B {
 	    
 	    driver.findElement(By.className("_6j mvm _6wk _6wl _58mi _3ma _6o _6v"));
 	    
-	    driver.close();
+	    driver.quit();
 		
 	}
 }
