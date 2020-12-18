@@ -33,6 +33,7 @@ public class Demo {
 		{
 			
 			driver.get("http://demo.guru99.com/test/newtours/register.php");
+			driver.manage().window().maximize();
 		}
 		
 		@BeforeClass
